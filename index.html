@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paramount Pre-School</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styling for the entire page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #c9c3c3;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header-logo img {
+            max-height: 80px;
+        }
+
+        .header-title {
+            margin-left: 18.5%;
+        }
+
+        /* Container for the student details */
+        .student-details {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Styling for the student image with animated frames */
+        .student-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .student-image img {
+            width: 100%;
+            height: auto;
+            border: 5px solid #333;
+            border-radius: 10px;
+        }
+
+        /* Styling for the student details section */
+        .student-info {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Styling for the student details table */
+        table {
+            width: 100%;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        td {
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Styling for father's and mother's photos */
+        .parents-photos {
+            display: flex;
+            flex-direction: row; /* Stack parent photos vertically */
+            align-items: center; /* Center-align parent photos */
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .parent-photo {
+            text-align: center;
+        }
+
+        .parent-photo img {
+            width: 130px; /* Reduced the width */
+            height: 130px; /* Reduced the height */
+            border: 5px solid #333;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+
+        .parent-photo p {
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        /* Responsive design for mobile devices */
+        @media (max-width: 600px) {
+            .student-details {
+                padding: 10px; /* Reduce padding for mobile */
+            }
+
+            .student-image img {
+                width: 100%; /* Fit the student photo to the screen in mobile view */
+            }
+
+            .parent-photo img {
+                width: 70px; /* Reduced the width of parent photos for mobile */
+                height: 70px; /* Reduced the height of parent photos for mobile */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="https://www.paramounttherapyclinic.com/wp-content/uploads/2022/08/Logo-1.png" alt="Logo">
+        </div>
+        
+       
+    </header>
+    <div class="student-details">
+        <div class="student-image">
+            <img src="./sarveshan1.jpeg" alt="Student Image">
+        </div>
+        <div class="student-info">
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td style="font-weight: bold; color: #333;">Sarveshan R</td>
+                </tr>
+                <tr>
+                    <td>Father's Name</td>
+                    <td>Mr.Ramadass</td>
+                </tr>
+                <tr>
+                    <td>Mother's Name</td>
+                    <td>Mrs.Aswini</td>
+                </tr>
+                <tr>
+                    <td>Contact Number</td>
+                    <td>8438186330</td>
+                </tr>
+                <tr>
+                    <td>Alternate Number</td>
+                    <td>7845410020</td>
+                </tr>
+                <tr>
+                    <td>School Name</td>
+                    <td>ParaMount-pre school School</td>
+                </tr>
+                <tr>
+                    <td>School Address</td>
+                    <td><a href="https://www.google.co.in/maps/place/Paramount+Therapy+Clinic+and+Pre+School/@12.9267076,80.2004217,17z/data=!3m1!4b1!4m6!3m5!1s0x3a525c3bed6b42bd:0xf8286716a7843e0c!8m2!3d12.9267076!4d80.2029966!16s%2Fg%2F1yg4dhjdh?entry=ttu">ParaMount-pre school School<br>No1, Ganapathypuram Main Road,
+                        Pallikaranai ,Chennai – 600 100.</a></td>
+                </tr>
+                <tr>
+                    <td>Therapist</td>
+                    <td>Mr. KeerthiRaj</td>
+                </tr>
+                <tr>
+                    <td>Therapist Contact</td>
+                    <td>73388 63120</td>
+                </tr>
+            </table>
+        </div>
+        <div class="parents-photos">
+            <div class="parent-photo">
+                <img src="./sarveshandad.jpeg" alt="Father's Photo">
+                <p>Father</p>
+            </div>
+            <div class="parent-photo">
+                <img src="./sarveshanmom.jpeg" alt="Mother's Photo">
+                <p>Mother</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
